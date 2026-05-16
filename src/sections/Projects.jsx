@@ -114,6 +114,7 @@ function ProjectCard({ title, tag, description, image, demo, github, index }) {
         <motion.img
           src={image}
           alt={title}
+          loading="lazy"
           whileHover={{ scale: 1.05 }}
           className="w-[85%] h-[75%] rounded-[25px] object-cover shadow-2xl"
         />

@@ -379,7 +379,7 @@ function Hero() {
                   repeat: Infinity,
                 }}
                 className="
-                  mt-12
+                  mt-10
                   relative
                   z-10
                 "
@@ -390,7 +390,7 @@ function Hero() {
                   alt=""
                   className="
                     w-[320px]
-                    md:w-[300px]
+                    md:w-[260px]
                     mx-auto
                     drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)]
                   "
