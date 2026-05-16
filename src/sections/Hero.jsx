@@ -285,7 +285,7 @@ function Hero() {
                 className="
                   text-pink-100
                   text-2xl
-                  mb-4
+                  mb-2
                 "
               >
                 Hi, I'm
@@ -313,7 +313,7 @@ function Hero() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
                 className="
-                  mt-6
+                  mt-4
                   inline-block
                   px-6
                   py-3
@@ -353,7 +353,7 @@ function Hero() {
     document.getElementById("timeline").scrollIntoView({ behavior: "smooth" })
   }}
   className="
-    mt-10
+    mt-6
     px-9
     py-4
     rounded-full
@@ -379,7 +379,7 @@ function Hero() {
                   repeat: Infinity,
                 }}
                 className="
-                  mt-10
+                  mt-6
                   relative
                   z-10
                 "
@@ -390,7 +390,7 @@ function Hero() {
                   alt=""
                   className="
                     w-[320px]
-                    md:w-[260px]
+                    md:w-[240px]
                     mx-auto
                     drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)]
                   "
