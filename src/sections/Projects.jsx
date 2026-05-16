@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import cafejoy from "../assets/cafejoy.png"
 import boosts from "../assets/boosts.png"
 import job from "../assets/job.png"
-import zesty from "../assets/zesty (2).png"
+import zesty from "../assets/zesty.png"
 import toon from "../assets/toon.png"
 import dewi from "../assets/dewi.png"
 
