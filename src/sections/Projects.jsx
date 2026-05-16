@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import cafejoy from "../assets/cafejoy.png"
 import boosts from "../assets/boosts.png"
 import job from "../assets/job.png"
-import zesty from "../assets/zesty.png"
+import Zesty from "../assets/Zesty.png"
 import toon from "../assets/toon.png"
 import dewi from "../assets/dewi.png"
 
@@ -21,7 +21,7 @@ function Projects() {
       title: "ZestyHub",
       tag: "React.js | Tailwind CSS | APIs | React Router",
       description: "A food ordering app with vibrant UI, restaurant menus and cart functionality.",
-      image: zesty,
+      image: Zesty,
       demo: "https://zestyhub.netlify.app/",
       github: "https://github.com/Yasmin-Elsawy19/Food-Ordering-App",
     },
