@@ -1,5 +1,6 @@
 // src/sections/Projects.jsx
 import { motion } from "framer-motion"
+import streamvibe from "../assets/streamvibe.png"
 import cafejoy from "../assets/cafejoy.png"
 import boosts from "../assets/boosts.png"
 import job from "../assets/job.png"
@@ -10,25 +11,37 @@ import dewi from "../assets/dewi.png"
 function Projects() {
   const projects = [
     {
+      title: "StreamVibe",
+      tag: "React.js |CSS | UI/UX",
+      description:
+        "A modern streaming platform UI with smooth animations, responsive design and premium user experience.",
+      image: streamvibe,
+      demo: "https://stream-vibe-beta.vercel.app/",
+      github: "https://github.com/Yasmin-Elsawy19/StreamVibe",
+    },
+    {
       title: "Career Tracker Hub",
       tag: "React.js | Tailwind CSS | Chart.js",
-      description: "A modern career tracking platform with job applications, interview scheduling and offers management.",
+      description:
+        "A modern career tracking platform with job applications, interview scheduling and offers management.",
       image: job,
-      demo: "https://career-tracker-hub.netlify.app/",
+      demo: "https://job-application-tracker-sigma-virid.vercel.app/",
       github: "https://github.com/Yasmin-Elsawy19/Job-Application-Tracker",
     },
     {
       title: "ZestyHub",
       tag: "React.js | Tailwind CSS | APIs | React Router",
-      description: "A food ordering app with vibrant UI, restaurant menus and cart functionality.",
+      description:
+        "A food ordering app with vibrant UI, restaurant menus and cart functionality.",
       image: Zesty,
-      demo: "https://zestyhub.netlify.app/",
+      demo: "https://food-ordering-app-eight-pearl.vercel.app/",
       github: "https://github.com/Yasmin-Elsawy19/Food-Ordering-App",
     },
     {
       title: "Toonverse",
       tag: "React.js | Tailwind CSS | APIs | React Router",
-      description: "An entertainment app for cartoons with sections to watch, play and create.",
+      description:
+        "An entertainment app for cartoons with sections to watch, play and create.",
       image: toon,
       demo: "https://toonverse-app.netlify.app/",
       github: "https://github.com/Yasmin-Elsawy19/Toon_Verse",
@@ -36,7 +49,8 @@ function Projects() {
     {
       title: "CafeJoy",
       tag: "React.js | Tailwind CSS",
-      description: "A coffee shop ordering website with cozy UI and menu browsing.",
+      description:
+        "A coffee shop ordering website with cozy UI and menu browsing.",
       image: cafejoy,
       demo: "https://cafejoy.netlify.app/",
       github: "https://github.com/YasminElsawy/cafejoy",
@@ -44,7 +58,8 @@ function Projects() {
     {
       title: "Bosts",
       tag: "JavaScript | APIs",
-      description: "A social media management dashboard with posts, analytics and engagement tracking.",
+      description:
+        "A social media management dashboard with posts, analytics and engagement tracking.",
       image: boosts,
       demo: "https://bosts.vercel.app/",
       github: "https://github.com/YasminElsawy/bosts",
@@ -52,7 +67,8 @@ function Projects() {
     {
       title: "Dewi Three",
       tag: "Bootstrap | HTML",
-      description: "A professional business management template with client management, financial tracking and task automation.",
+      description:
+        "A professional business management template with client management, financial tracking and task automation.",
       image: dewi,
       demo: "https://dewi-three.vercel.app/",
       github: "https://github.com/Yasmin-Elsawy19/Dewi",
@@ -94,7 +110,7 @@ function Projects() {
 }
 
 function ProjectCard({ title, tag, description, image, demo, github, index }) {
-  const direction = index % 2 === 0 ? -100 : 100 
+  const direction = index % 2 === 0 ? -100 : 100
   return (
     <motion.div
       initial={{ opacity: 0, x: direction }}
