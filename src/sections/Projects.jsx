@@ -7,9 +7,19 @@ import job from "../assets/job.png"
 import Zesty from "../assets/Zesty.png"
 import toon from "../assets/toon.png"
 import dewi from "../assets/dewi.png"
+import travel from "../assets/travel.png"
 
 function Projects() {
   const projects = [
+      {
+      title: "Wander Egypt",
+      tag: "React.js |Tailwind CSS | React Router | Context API | React leaflet | Aos Animations | Framer Motion",
+      description:
+        "A modern streaming platform UI with smooth animations, responsive design and premium user experience.",
+      image: travel,
+      demo: "https://travel-beyond-h3py.vercel.app/",
+      github: "https://github.com/Yasmin-Elsawy19/travel-beyond",
+    },
     {
       title: "StreamVibe",
       tag: "React.js |CSS | UI/UX",
